@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Wix+Madefor+Display&display=swap');
+
+body{
+	line-height: 1.5;
+	font-family: 'Wix Madefor Display', sans-serif;
+
+}
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+section
+{
+	position: relative;
+	width: 75%;
+	min-height: 65vh;
+	padding: 65px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background: #fff;
+}
+header
+{
+	position: absolute;
+	top: -60;
+	left: 50;
+	width: 100%;
+	padding: 30px 30px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+header .logo
+{
+	position: relative;
+	max-width: 165px;
+}
+header ul
+{
+	position: relative;
+	display: flex;
+}
+header ul li
+{
+	list-style: none;
+}
+header ul li a
+{
+	display: inline-block;
+	color: #333;
+	font-weight: 400;
+	margin-left: 40px;
+	text-decoration: none;
+}
+.content
+{
+	position: relative;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.content .texbox
+{
+	position: relative;
+	max-width: 600px;
+}
+.content .texbox h2
+{
+	color: #333;
+	font-size: 4em;
+	line-height: 1.4em;
+	font-weight: 500;
+}
+.content .textbox h2 span
+{
+	color: blueviolet;
+	font-size: 1.2em;
+	font-weight: 900;
+}
+.content .texbox p
+{
+   color: #333;
+
+}
+.content .textbox a 
+{
+  display: inline-block;
+  margin-top: 20px;
+  padding: 8px 20px;
+  background: blueviolet;
+  color: white;
+  border-radius: 40px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-decoration: none;	
+}
+.content .imgBox
+{
+	width: 400px;
+	display: flex;
+    margin-top: 50px;
+}
+.content .imgBox img
+{
+	max-width: 700px;
+}
+.sci
+{
+	position: absolute;
+	top: 50%;
+	right: -250px;
+	transform: translateY(-50%);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.sci li 
+{
+	list-style: none;
+}
+.sci li a
+{
+	display: inline-block;
+	margin: 15px 0;
+	transform: scale(0.-20);
+}
+.container{
+	max-width: 1170px;
+	margin:auto;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+ul{
+	list-style: none;
+	right: -500;
+	height: 1vh;
+	min-width: 60px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	margin: auto;
+}
+.sticky-footer{
+	position: sticky;
+	top: 100%;
+}
+footer{
+	position: fixed;
+	bottom: 0;
+	background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+.footer{
+	background-color: brown;
+	box-sizing: border-box;
+	width: 100%;
+	font: bold 13px sans-serif;
+	padding: 1px 1px 10px 60px;
+	margin-top: 10px;
+	margin-left: -75 ;
+
+}
+.footer .footer-left,
+.footer .footer-center,
+.footer .footer-right {
+	display: inline-block;
+}
+.footer .footer-left{
+	width: 30%;
+}
+.footer h3 {
+	color: white;
+	margin: 10;
+	padding-bottom: 5px;
+	font-family: georgia, 'Time New Roman', Times, serif;
+	position: relative;
+}
+.footer .footer-left img{
+	width: 6%;
+	vertical-align: middle;
+}
+.footer .footer-left .credit-card {
+	width: 100%;
+}
+.footer .footer-copyright{
+	color: whitesmoke;
+	font-size: 10px;
+	font-weight: normal;
+	margin: 0;
+	padding-top: 1%;
+}
+.footer .footer-center {
+	width: -200%;
+
+}
+.footer .footer-center i {
+	background-color: blue;
+	color: red;
+	font-size: 25px;
+	width: 25px;
+	height: 20px;
+	border-radius: 40%;
+	text-align: right;
+	line-height: 42px;
+}
+.thumb
+{
+	position: absolute;
+	left: 1%;
+	bottom: 1px;
+	transform: translateY(-1%);
+	display: flex;
+}
+a{
+	position: relative;
+	text-decoration: none;
+	font-family: 'Poppins', sans-serif;
+	color: white;
+	font-size: 18px;
+	letter-spacing: 0.10px;
+}
+a:after{
+	content: "";
+	position: absolute;
+	background-color: red;
+	height: 3px;
+	width: 0;
+	left: 0;
+	bottom: -10px;
+}
+a:hover:after{
+	width: 100%;
+}
